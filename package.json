@@ -1,5 +1,5 @@
 {
-  "name": "select-country",
+  "name": "@josealbertovazq/select-country",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -31,7 +31,7 @@
     "serve:prerender": "cd dist/browser && http-server",
     "prerender": "ng run select-country:prerender"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^9.1.9",
     "@angular/cdk": "~9.2.3",
